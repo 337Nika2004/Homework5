@@ -40,13 +40,13 @@ public class Main {
         }
         // Задача 4
         System.out.println("Задача 4");
-        int deliveryDistance = 50;
+        int deliveryDistance = 95;
         int days;
-        if (deliveryDistance <= 28) {
+        if (deliveryDistance <= 20) {
             days = 1;
-        } else if (deliveryDistance > 20 && deliveryDistance <= 68) {
+        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
             days = 2;
-        } else if (deliveryDistance > 68 && deliveryDistance <= 188) {
+        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
             days = 3;
         } else {
             days = -1;
