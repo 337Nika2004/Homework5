@@ -52,7 +52,7 @@ public class Main {
             days = -1;
         }
         if (days != -1) {
-            System.out.println("Потребуется дней: " + days);
+            System.out.println("Потребуется дней : " + days);
         } else {
             System.out.println("Доставки нет ");
         }
